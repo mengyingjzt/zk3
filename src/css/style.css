@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.hea_list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px; }
+  .hea_list li {
+    width: 60px;
+    text-align: center;
+    border-radius: 10px; }
+    .hea_list li span {
+      font-size: 10px;
+      display: block;
+      padding: 4px 0; }
+
+.sec_con li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px; }
+  .sec_con li p {
+    width: 100px;
+    text-align: center; }
+    .sec_con li p span {
+      display: block; }
+      .sec_con li p span:nth-child(1) {
+        color: #1FC756;
+        font-weight: bold; }
+
+.active {
+  background: #1FC756; }
